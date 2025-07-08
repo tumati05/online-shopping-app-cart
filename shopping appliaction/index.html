@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div class="all">
+      <div class="division">
+        <p id="feedback"></p>
+        <h1>Online Shopping</h1>
+        <h3>Avaliable Products</h3>
+        <div id="available"></div>
+        <h3>My Cart</h3>
+        <div id="cartproducts"></div>
+        <h2 style="position: right">
+          TotalAmount:<span id="amount">0</span><span></span>
+        </h2>
+        <button style="width: auto" onclick="sortproducts()">
+          Sort Products Based On Price
+        </button>
+        <button id="clearcart">clear cart</button>
+      </div>
+    </div>
+    <script src="scrpt.js"></script>
+  </body>
+</html>

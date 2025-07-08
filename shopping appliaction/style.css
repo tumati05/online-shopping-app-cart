@@ -1,0 +1,86 @@
+.all {
+  background-color: rgba(234, 220, 26, 0.767);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.division {
+  background-color: white;
+  width: 75%;
+  max-width: 75%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 8px rgba(255, 255, 255, 0.292);
+}
+h1 {
+  align-items: center;
+  text-align: center;
+}
+h2,
+h3 {
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 75px;
+  height: 35px;
+}
+#available {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+}
+.border {
+  border: 2px solid black;
+  border-radius: 5px;
+  gap: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+#cartproducts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+
+  h2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+}
+h2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+#feedback {
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  width: auto;
+  height: 50px;
+  background-color: rgb(57, 221, 106);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#feedback.classadded {
+  background-color: rgb(221, 57, 57);
+}
